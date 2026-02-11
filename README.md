@@ -1,30 +1,108 @@
-## Made With Django Framework
+# 🫀 Heart Disease Prediction Web App
 
-More information can be seen by pressing this link (https://www.djangoproject.com/)
+A web-based application for heart disease prediction built using **Django Framework** and a **Decision Tree Machine Learning model**.
 
-## Install Dependencies
+This application allows users to input medical parameters and receive a prediction result through a user-friendly web interface.
 
-- install django framework
+More information about Django:  
+https://www.djangoproject.com/
+
+---
+
+## 📌 Features
+
+- Heart disease prediction using Decision Tree algorithm  
+- Web-based user interface  
+- Input form for patient medical data  
+- Prediction result display  
+- Responsive and user-friendly design  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Django  
+- HTML  
+- CSS  
+- JavaScript  
+- Machine Learning (Decision Tree)  
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/adin-alxndr/heart-prediction-using-python.git
+cd heart-prediction-using-python
+```
+### 2. Create Virtual Environment (Optional but Recommended)
+```bash
+py -m venv venv
+venv\Scripts\activate
+```
+### 3. Install Django
 ```bash
 py -m pip install Django
 ```
-
-- install library 
+### 4. Install Required Libraries
 ```bash
 py -m pip install -r requirements.txt
 ```
-## Further installations on graphviz
 
-Grphviz has additional requirements to be used. Graphviz can only be used if installed directly through the web so that it can render the generated dot source code. You can install graphviz directly on the following web link (https://www.graphviz.org/download/). For Windows users can see the tutorial on the following link (https://forum.graphviz.org/t/new-simplified-installation-procedure-on-windows/224)
+---
 
-## Running migration and web
+## 📊 Graphviz Installation (Optional)
 
-In the same directory as the 'manage.py' directory. run the command on the terminal 
+Graphviz is used to visualize the Decision Tree model structure.
 
+Download and install Graphviz from:
+https://www.graphviz.org/download/
+
+For Windows users, follow this guide:
+https://forum.graphviz.org/t/new-simplified-installation-procedure-on-windows/224
+
+---
+
+## 🗃️ Database Migration
+
+Make sure you are in the same directory as manage.py, then run:
 ```bash
 py manage.py migrate
 ```
 
+---
+
+## ▶️ Run the Server
+
 ```bash
 py manage.py runserver
 ```
+
+Then open your browser and go to:
+```bash
+http://127.0.0.1:8000/
+```
+---
+
+## 🧪 Example Workflow
+
+1. Open the web application
+2. Input medical parameters
+3. Click predict
+4. View prediction result
+
+---
+
+## 📈 Machine Learning Model
+
+- Algorithm: Decision Tree
+- Libraries: pandas, scikit-learn
+- Task: Binary classification (Heart Disease: Yes/No)
+
+---
+
+## 📜 License
+
+This project is for educational and portfolio purposes.
